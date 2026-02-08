@@ -1,5 +1,5 @@
 const myKey = 'd1c06d949cb846ac9c594933242506'; 
-const baseUrl = 'https://api.allorigins.win/raw?url=http://api.weatherapi.com/v1/forecast.json';
+const baseUrl = 'https://api.allorigins.win/raw?url=https://api.weatherapi.com/v1/forecast.json';
 let btn = document.querySelector('.bot'); 
 let input = document.querySelector('#findLocation'); 
 
