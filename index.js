@@ -1,4 +1,4 @@
-const myKey = 'd1c06d949cb846ac9c594933242506'; 
+const myKey = '3239d9b144dd46e2acf151944260802'; 
 const baseUrl = 'https://api.weatherapi.com/v1/forecast.json';
 let btn = document.querySelector('.bot'); 
 let input = document.querySelector('#findLocation'); 
