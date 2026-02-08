@@ -54,7 +54,7 @@ function displayForecast(forecastData) {
     const forecastContainer = document.getElementById('main1'); 
     forecastContainer.innerHTML = ''; 
 
-    displayCurrentWeather(forecastData.current, forecastData.location);
+    displayCurrentWeather(forecastData.current,forecastData.location);
 
     
     for (let i = 1; i <= 2; i++) {
