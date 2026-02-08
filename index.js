@@ -7,7 +7,7 @@ btn.addEventListener('click', async function(event) {
     const country = input.value.trim(); 
     if (country) {
         try {
-            const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=3239d9b144dd46e2acf151944260802&q=${country}&days=3`); 
+            const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=3239d9b144dd46e2acf151944260802&q=${country}&days=3`); 
             if (!response.ok) {
                 throw new Error('Weather data not found');
             }
