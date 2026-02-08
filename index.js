@@ -12,7 +12,7 @@ btn.addEventListener('click', async function(event) {
             }
             const data = await response.json();
             displayCurrentWeather(data.current, data.location);
-            displayForecast(data.forecast.forecasrday);
+            displayForecast(data.forecast.forecastday);
     } else {
         alert('Please enter a country or location');
     }
