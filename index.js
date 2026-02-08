@@ -4,7 +4,7 @@ let input = document.querySelector('#findLocation');
 
 btn.addEventListener('click', async function(event) {
     event.preventDefault();
-    const country = input.value.trim(); 
+    const country = input.value; 
     if (country) {
         try {
             const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=3239d9b144dd46e2acf151944260802&q=${country}&days=3`); 
